@@ -1,0 +1,360 @@
+#LoginAut{
+    display: none;
+  }
+  #LoginInc{
+    display: none;
+  }
+  #LoginBlo{
+    display: none;
+  }
+  #LoginNo{
+    display: none;
+  }
+  
+.bandeja{
+  width: 100%;
+  height: auto;
+}
+#menuLateral{
+  width: 15%;
+    position: relative;
+    top: 20px;
+    left: 0%;
+    z-index: 1; float: left;
+}
+#menuLateral li{
+    display: block;
+}
+#menuLateral button{
+width: 90%;
+margin: 3%;
+border: rgba(0,0,0,0.3) solid 0.3px;
+background: rgba(255,255,255,0.2);
+}
+#telaSessoes{
+    position: absolute;
+    height: auto;
+    right: 0%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 12%;
+}
+
+.calendario{
+    border: 0.1px solid rgba(0,0,0,0.2);
+    padding: 2%;
+    text-align: center;
+}
+
+.calendario1 {
+    padding: 2%;
+    text-align: center;
+    font-size: 19px
+}
+    
+.calendariosem{
+    border: 0.1px solid rgba(0,0,0,0.2);
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+	#modalFundo{
+	width: 100%;
+	height: 150%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: none;
+	z-index: 2;
+	box-sizing: content-box;
+
+}
+#modalMen{
+	width: 100%;
+	background: rgba(255,255,255,1);
+	z-index: 2;
+}
+
+#titulo{
+	position: relative;
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 1.5%;
+	color: rgba(255,255,255,1);
+	font-size: 20px;
+	z-index: 4;
+}
+#close{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin: 1%;
+	z-index:5;
+}
+#fechar{
+	width: 100%;
+	font-size: 24px;
+	background: rgba(255,255,255,0);
+	border: none;
+	z-index: 6;
+}
+#conteudo{
+	padding: 4%;
+	margin: 1%;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+
+.material-switch > input[type="checkbox"] {
+display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 1;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+    
+}
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+
+
+#pswd_info {
+  background: #dfdfdf none repeat scroll 0 0;
+  color: #fff;
+  left: 0px;
+  position: relative;
+  top: 13px;
+}
+
+#pswd_info ul {
+    list-style: outside none none;
+}
+#pswd_info ul li {
+   padding: 5px 40px;
+}
+
+
+
+.valid {
+  background: rgba(0, 0, 0, 0) url("../img/CADASTRADO.png") no-repeat scroll 2px 6px;
+  color: green;
+  line-height: 21px;
+  padding-left: 22px;
+}
+
+.invalid {
+  background: rgba(0, 0, 0, 0) url("../img/ERRO.png") no-repeat scroll 2px 6px;
+  color: red;
+  line-height: 21px;
+  padding-left: 22px;
+}
+
+
+#pswd_info::before {
+    background: #dfdfdf none repeat scroll 0 0;
+    content: "";
+    height: 25px;
+    left: 13px;
+    margin-top: -12.5px;
+    position: absolute;
+    top: 0%;
+    transform: rotate(45deg);
+    width: 25px;
+}
+#pswd_info {
+    display:none;
+}
+.form-group{
+  padding: 0.1% 0.1% 0.1% 1%;
+}
+
+.tt-hint {
+  font-size: 0px;
+  background: rgba(255,255,255,0);
+}
+
+
+.tt-dropdown-menu {
+width: 100%;
+margin-top: 5px;
+padding: 10px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+font-size: 13px;
+color: rgba(0,0,0,0.7);
+background:rgba(255,255,255,2);
+}
+
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+#pesquisar_extra{
+    width: 4%;
+    height: 100%;
+    position: absolute; 
+    right: 0px;
+    z-index: 100;
+    padding: 2%;
+    /*background: rgba(255,255,255,1);*/
+    background: rgba(246,246,246,1)
+   }
+
+#flip + label::before {
+  content: url("../img/search.png");
+}
+
+
+#flip:checked + label:before{
+  content: url("../img/fechar.png");
+}
+#loading{
+position: relative; left: 20%; top: 20%
+ }  
+
+ .aviso{
+    background: rgba(0,0,0,0.3);
+    padding: 4%;
+    width: 100%;
+}
+
+#processos input{
+  border:none;
+border-bottom: 1px solid rgba(0,0,0,0.2);
+
+
+}
+
+.inputContainer{}
+
+.containerTela{
+  overflow: hidden;width: 93%; margin-top:1%
+}
+.searchProcessos{
+  position: absolute; 
+  right: 16%; 
+  background: transparent;
+  }
+.searchProcessos:after{
+content: url("../img/search2.png");
+}
+
+.view_processos{
+width: 103.5%;
+font-size: 13px;
+font-family: Arial;
+max-height: 200px;
+overflow: scroll;
+overflow-x: hidden;
+padding: 0%;
+display: none;
+}
+
+
+
+.view_processos li{
+display: block;
+cursor: pointer;
+width: 100%;
+border:1px solid rgba(0,0,0,0.2);
+margin: 0% 0% 2% 0%;
+padding: 1%;
+border-radius: 5px;
+}
+
+.view_processos li > button{
+   position: relative;
+    float: right;
+    background: #00000000;
+    top: -2px;
+}
+
+.alert{
+  transition: all 0.4s ease-in-out; 
+}
+.alert:hover{
+  background: rgba(0,0,0,0.1);
+ transition: all 0.4s ease-in-out; 
+}
